@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style type="text/css">
+        table{
+            border-collapse:collapse;
+
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: grey;
+            color: black;
+        }
+
+        td.datacellone {
+            background-color: lightgrey;
+            color: black;
+        }
+
+        td.datacelltwo {
+            background-color:dimgrey;
+            color: black;
+        }
+    </style>
+    <table>
+        <tr>
+            <th>list of persons</th> <th>                </th><th>ADD /UPDATE FORM</th>
+        
+        </tr>
+        <tr>
+            <td>
+                <table>
+                 
+                    <tr><td class="datacellone">NAME</td><td class="datacellone">gender</td><td class="datacellone">age</td><td class="datacellone">city</td><td class="datacellone">action</td></tr>
+                    <tr><td class="datacelltwo">shazad</td><td class="datacelltwo">male</td><td class="datacelltwo">30</td><td class="datacelltwo">lahore</td><td class="datacelltwo">update/remove</td></tr>
+                    <tr><td class="datacellone">danial</td><td class="datacellone">male</td><td class="datacellone">34</td><td class="datacellone">islamabhad</td><td class="datacellone">update/remove</td></tr>
+                    <tr><td class="datacelltwo">sara</td><td class="datacelltwo">female</td><td class="datacelltwo">34</td><td class="datacelltwo">karachi</td><td class="datacelltwo">update/remove</td></tr>
+                    <tr><td class="datacellone">Tahir</td><td class="datacellone">male</td><td class="datacellone">38</td><td class="datacellone">lahore</td><td class="datacellone">update/remove</td></tr>
+                    
+                </table>
+             
+            </td>
+            <td>    </td>
+            <td>
+                <div>
+                    <table>
+
+                        <tr>
+                            <td>Name</td>
+                            <td colspan="2"><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td><input type="radio" value="Male" /></td>
+                            <td><input type="radio" value="Female" /></td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td colspan="2"><input type="text" /></td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td colspan="2">
+                                <select name="city">
+                                    <option value="Lahore">Lahore</option>
+                                    <option value="Karachi">Karachi</option>
+                                    <option value="Islamabad">Islamabad</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><button onclick="" value="reset">reset</button></td>
+                            <td><button onclick="" value="add">add</button></td>
+                            <td><button onclick="" value="update">update</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+
+        </tr>
+    </table>
+
+</body>
+</html>
